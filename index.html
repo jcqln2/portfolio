@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>j robinson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0e0f11;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .header {
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .nav {
+      display: flex;
+      gap: 1rem;
+    }
+    .nav button {
+      background: none;
+      border: 1px solid #333;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .nav button:hover {
+      background-color: #222;
+    }
+    .tag {
+      background-color: #1e1f22;
+      border-radius: 12px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.85rem;
+      margin-bottom: 1rem;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1100px;
+      width: 100%;
+    }
+    .card {
+      flex: 1;
+      min-width: 260px;
+      background-color: #151618;
+      padding: 1.5rem;
+      border-radius: 12px;
+    }
+    .card h2 {
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .links a {
+      display: block;
+      margin-top: 1rem;
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background: none;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .links a:hover {
+      background-color: #222;
+    }
+    .main h1 {
+      font-size: 2rem;
+      font-weight: 800;
+    }
+    .main p {
+      color: #aaa;
+    }
+    .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .skill-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .badge {
+      background-color: #1f1f22;
+      padding: 0.4rem 0.7rem;
+      border-radius: 6px;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="tag">jacqueline robinson</div>
+
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Hi ! 👋</h2>
+      <p>
+        I'm Jackie — a curious builder, technologist, and explorer of the web3 world.
+        I am passionate about blockchain technology, creativity, and working with great teams.
+      </p>
+      <div class="links">
+        <a href="https://github.com/jcqln2" target="_blank">Github</a>
+        <a href="https://x.com/themonarchess" target="_blank">X</a>
+        <a href="https://calendly.com/jacqueline-connect-56rh/30min" target="_blank">Book a meeting with me</a>
+      </div>
+    </div>
+
+    <div class="card main">
+      <h1>People describe me as a team player</h1>
+      <p>Web3 & Full-Stack Developer</p>
+      <div style="margin-top:1rem; font-size: 0.9rem;">
+        <p><strong>Location:</strong> Toronto / GMT-4</p>
+        <p><strong>Experience:</strong> 2 years</p>
+        <p><strong>Projects:</strong> 10+</p>
+      </div>
+
+      <div class="skills">
+        <div>
+          <strong>- Web3 -</strong>
+          <div class="skill-group">
+            <div class="badge">Ethereum</div>
+            <div class="badge">Solana</div>
+            <div class="badge">Lukso</div>
+            <div class="badge">Web3.js</div>
+            <div class="badge">Ethers.js</div>
+            <div class="badge">IPFS</div>
+            <div class="badge">Hardhat</div>
+            <div class="badge">Infura</div>
+            <div class="badge">Wallet Connect</div>
+            <div class="badge">Solidity</div>
+          </div>
+        </div>
+
+        <div>
+          <strong>- Full Stack -</strong>
+          <div class="skill-group">
+            <div class="badge">React</div>
+            <div class="badge">Next</div>
+            <div class="badge">Tailwind CSS</div>
+            <div class="badge">Node</div>
+            <div class="badge">Express</div>
+            <div class="badge">TypeScript</div>
+            <div class="badge">Python</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
